@@ -1,0 +1,56 @@
+.dice {
+    width: 50px;
+    height: 50px;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(200, 200, 200);
+    padding: 10px 10px;
+    margin: 5px 5px;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+}
+
+.dices {
+    margin: 20px 0px;
+}
+
+.frozen {
+    background-color: rgb(89, 227, 145);
+}
+
+body {
+    background-color: aliceblue;
+    font-family: Inter;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+button {
+    background-color: rgb(80, 53, 255);
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgb(50, 23, 255);
+}
